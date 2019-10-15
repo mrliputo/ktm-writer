@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="id.ac.unja.si.ktmwriter.act.MainActivity">
+
+    <EditText
+        android:id="@+id/nimInput"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:ems="10"
+        android:hint="Masukkan NIM"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="Masukkan NIM pada field diatas, dan tap KTM di belakang perangkat."
+        android:textAlignment="center"
+        android:textSize="18sp" />
+</LinearLayout>
